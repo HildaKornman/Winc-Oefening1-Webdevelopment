@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Winc oefening website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="menu" alt="Menu mobiel placeholder" src="../Menu mobiel placeholder.jpg">
+        </div>
+        <div>
+            <a class="logo" href="index.html"><img src="../Logo HvA.jpg" alt="Naar Homepage"></a>
+            <img class="zoeken" src="../Zoekvenster.jpg">
+        </div>
+    </header>     
+    <nav class="mainnav">
+        <a href="index.html">Home</a>
+        <a href="studeren.html">Studeren</a>
+        <a href="onderzoek.html">Onderzoek</a>
+        <a href="werken.html">Werken</a>
+        <a class="active" href="contact.html" target="_blank">Contact</a> 
+    </nav>
+    <main>
+        <h1 class="titel">Contact met Hogeschool van Amsterdam:</h1>
+        <section class="blok">
+            <h2>Aanmelden nieuwsbrief</h2>
+            <form name="nieuwsbrief" method="POST" data-netlify="true">
+                <p><label>Hou me op de hoogte over:</label><br>
+                    <input name="studeren" type="checkbox"/><label>Studeren</label>
+                    <input name="onderzoek" type="checkbox"/><label>Onderzoek</label>
+                    <input name="werken" type="checkbox"/><label>Stages&vacatures</label>
+                </p>
+                <p><label>Naam: <input name="Naam" type="name"/></label></p>
+                <p><label>Email: <input name="Mail" type="email"/></label></p>
+                <button type="submit">Aanmelden</button>
+            </form>     
+            <br><br><br> 
+        </section>
+        <section>    
+            <a href="Contact.html"><img class="blok" alt="Foto contact" src="../Laptop.jpg"></a>
+        </section>
+        <section class="blok">
+            <h2>Contact</h2>
+                <form name="contactformulier" method="POST" data-netlify="true">
+                <label>Vraag en/of reden van contact: <textarea name="Vraag" maxlength="50"></textarea></label>    
+                <p><label>Naam: <input name="Naam" type="name"/></label></p>
+                <p><label>Telefoon: <input name="Tel" type="tel" minlength="10" maxlength="11"/></label></p>
+                <p><label>Email: <input name="Mail" type="email"/></label><br></p>
+                <button type="submit">Verzenden</button>
+            </form>
+        </section>
+        <section>    
+            <a href="Contact.html"><img class="blok" alt="Foto contact" src="../Buiten.jpg"></a>
+        </section>
+        <hr>
+        <section class="kruimelpad">
+            <br>
+            <a href="index.html">Home</a> |
+            <a href="studeren.html">Studeren</a> |
+            <a href="studeren.html">Studiekeuze</a> |
+            <a href="studeren.html">Opleidingen</a> |
+            <a href="onderzoek.html">Onderzoek</a> |
+            <a href="werken.html">Stages</a> |
+            <a href="werken.html">Vacatures</a> |
+            <a href="contact.html">Nieuwsbrief</a> |
+            <a href="contact.html" target="_blank">Contact</a>
+        </section>
+    </main>
+    <footer>
+        Cookie instellingen aanpassen - Disclaimer - Privacy
+        <br><br>
+        Volg ons op Instagram | LinkedIn | YouTube | Facebook | Twitter
+        <br><br><br>
+        <section class="Copyright">Copyright &copy;2021 Website oefening Winc Academy opleiding
+        </section>
+    </footer>
+</body>
+</html>

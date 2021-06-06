@@ -1,0 +1,186 @@
+div .menu {
+    width: 80px;
+    float: left;
+    margin:10px auto 0 5px;
+    }
+div .logo img{
+    width: 200px;
+    margin:0 auto 20px 60px;
+    }
+div .zoeken {
+    width: 120px;
+    float: right;
+    margin: 20px 20px 20px auto;
+    }
+.mainnav a{
+    float:left;
+    width:20%;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    background-color:#25167A;
+    border:15px solid #25167A;
+    box-sizing: border-box;
+    }
+.mainnav a:hover, nav a:active {
+    color:#25167A;
+    border: 15px solid grey;
+    background-color: grey;
+    }
+.mainnav .active {
+    border: 15px solid black;
+    background-color: black;
+    }
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    color:#25167A;
+    }
+h2 {
+    color:#25167A;
+    margin: 10px 0;
+    }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.2em;
+    margin: 15px auto 0 auto; 
+    }
+.blok {
+    display: inline;
+    float: left;
+    width: 50%;
+    color: grey;
+    border-top: 3px solid grey;
+    padding:0 20px;
+    box-sizing: border-box;
+    }
+.link img {
+    width: 10px;
+    }
+.link {
+    color: #00ba9f;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid #25167A;
+    text-decoration: none;
+    }
+.kruimelpad {
+    font-size: 16px;
+    padding: 15px 25px;
+    background-color:#00ba9f;
+    }
+.kruimelpad a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    }
+footer {
+    background-color:#25167A;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+    }
+@media screen and (min-width:600px){
+body {
+    font-size: 13px;  
+    }
+    }
+@media screen and (min-width:800px){
+body {
+    font-size: 15px;
+    line-height: 1.4em;
+}
+div .menu {
+    width: 120px;
+    }
+div .logo img{
+    width: 325px;
+    margin:0 auto 20px 120px;
+    }
+div .zoeken {
+    width: 200px;
+    }
+.blok {
+    padding:0 30px;
+}
+.link {
+    font-size: 15px;
+}
+.kruimelpad a {
+    font-size: 13px;
+    padding: 15px 15px;
+    }
+    }
+@media screen and (min-width:1024px){
+body {
+    font-size: 11px;
+    line-height: 1.2em;
+    }   
+.blok {
+    display: inline;
+    float: left;
+    width: 25%;
+    padding:0 20px;
+    box-sizing: border-box;
+    }
+h2 {
+    margin: 25px 0;
+        }
+.link {
+    font-size: 12px;
+    }
+.kruimelpad a {
+    font-size: 14px;
+    padding: 15px 12px;
+    }
+    }
+@media screen and (min-width:1200px){
+body {
+    font-size: 13px;
+    line-height: 1.3em;
+    } 
+div .logo img{
+    width: 350px;
+    margin:0 auto 20px 325px;
+    }
+div .zoeken {
+    width: 225px;
+    }
+.blok {
+    padding-left: 30px;
+    }
+.link {
+    font-size: 15px;
+    }
+.kruimelpad a {
+    font-size: 15px;
+    padding: 25px 15px;
+    }
+    }
+@media screen and (min-width:1300px){
+body {
+    font-size: 14px;
+    } 
+.mainnav a{
+    border:18px solid #25167A;
+    }
+.mainnav a:hover, nav a:active{
+    border: 18px solid grey;
+    }
+.mainnav .active {
+    border: 18px solid black;
+    background-color: black;
+    }
+h1 {
+    margin-top: 70px;
+    }
+    .blok {
+    padding-left: 35px;
+    }
+.kruimelpad a {
+    padding: 25px 25px;
+    }
+    }
